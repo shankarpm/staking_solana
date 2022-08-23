@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.mainnet]
+staking_contract = "A4t9qvefVmN7eJTM7vbtqKKrJrtSGxabXajMFQQieKH9"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "mainnet"
+wallet = "/Users/maulik/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
