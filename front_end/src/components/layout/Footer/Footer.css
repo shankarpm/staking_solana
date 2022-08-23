@@ -1,0 +1,20 @@
+footer{
+    margin-bottom: 50px;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+footer ul li a img{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(162deg,rgba(59,208,216,0.2) 28.7%,rgba(59,208,216,0));
+    border-radius: 100px;
+    padding: 15px;
+}

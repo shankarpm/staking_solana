@@ -1,0 +1,512 @@
+/* Hero Section */
+.hero-section{
+    background-image: url(../../assets/wave.png);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.no-borders:focus,.no-borders:active{
+    outline: 0;
+}
+input.no-borders::-webkit-outer-spin-button,
+input.no-borders::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-borders {
+    border: 0;
+    background: transparent;
+    display: inline-block;
+    width: max-content;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.connect-wallet .wallet-adapter-button.common-btn {
+    justify-content: center !important;
+    display: flex !important;
+}
+
+.hero-content h4{
+    font-size: 64px;
+    color: #fff;
+}
+
+.hero-content h4 span{
+    background: linear-gradient(82.14deg, #0071e1 61.14%, #a52bf0 95.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.hero-content p{
+    color: rgba(255,255,255,0.4);
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.hero-launch-btn{
+    background: linear-gradient(94.52deg, #0071e1 0%, #a52bf0 100%)!important;
+    padding: 13px 30px;
+    color: #fff!important;
+}
+
+.convert-investment {
+    border: 1px dashed rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1);
+    padding: 15px 50px;
+    margin: 30px auto 0 auto;
+    display: table;
+    border-radius: 20px;
+    position: relative;
+}
+
+.convert-investment p{
+    margin-bottom: 5px;
+    color: rgba(255,255,255,0.7);
+}
+
+.convert-investment h5{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+/* VISION */
+.vision-section{
+    margin-bottom: 100px;
+}
+
+.vision-content{
+    text-align: center;
+}
+
+.vision-content img{
+    max-width: 80px;
+    margin-bottom: 25px;
+}
+
+.vision-content p{
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.5px;
+    line-height: 27px;
+}
+
+.title{
+    margin-bottom: 25px;
+}
+
+.title h4{
+    font-size: 40px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+.title span{
+    width: 2.5rem;
+    height: 1px;
+    background: radial-gradient(39.84% 47.5% at 96.82% 58.33%, #39d0d8 0%, #2b6aff 100%);
+    display: block;
+    margin: 0 auto;
+}
+
+/* Transaction Section */
+.transaction-section{
+    margin-bottom: 100px;
+}
+
+.exchange-section{
+    background: linear-gradient(180deg,rgb(19 26 53) 10.7%,rgb(19 26 53 / 85%));
+    border-radius: 15px;
+    box-shadow: 5px 7px 9px 2px rgb(255, 255, 255, 7%);
+}
+
+.exchange-section .nav-link{
+    color: rgba(255,255,255,0.2)!important;
+    padding: 15px 0px;
+    border-bottom: 2px solid rgba(255,255,255,0.2)!important;
+    border-radius: 0px!important;
+}
+
+.exchange-section .nav-link:hover{
+    color: rgba(255,255,255,0.2);
+}
+
+.exchange-section .nav-link:focus-visible{
+    outline: none;
+}
+
+.exchange-section .nav-pills .nav-link.active, .exchange-section .nav-pills .show>.nav-link{
+    background-color: transparent;
+    color: #fff!important;
+    border-bottom: 2px solid #fff!important;
+}
+
+.exchange-section .nav-item{
+    width: 50%;
+    text-align: center;
+}
+
+.deposit-section{
+    padding: 15px 0px;
+}
+
+.transaction-header{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 20px 20px;
+}
+
+.transaction-header p{
+    margin-bottom: 0px;
+    color: #fff;
+    flex: 1 1 0%;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.transaction-header img{
+    background-color: rgba(255,255,255,0.05);
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.deposit-list{
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px 15px 20px;
+}
+
+.deposit-list h6{
+    color: rgba(255,255,255,0.7);
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.item-content{
+    display: flex;
+    align-items: center;
+}
+
+.item-content img{
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.item-content span{
+    display: block;
+}
+
+.item-content span:first-child{
+    color: #fff;
+}
+
+.item-content span:last-child{
+    color: rgba(255,255,255,0.4);
+    font-size: 14px;
+}
+
+.deposit-section .connect-wallet{
+    padding: 0px 20px;
+}
+
+.deposit-section .connect-wallet button{
+    margin: 15px 0px 10px 0px;
+    width: 100%;
+    padding: 14px 20px;
+    background-image: linear-gradient(94.52deg, #0071e1 0%, #a52bf0 100%);
+    border: 0px;
+    color: #fff;
+}
+
+.withdraw-section .deposit-list{
+    border: 0px;
+    padding: 5px;
+}
+
+/* Transaction */
+.transaction{
+    margin-top: 80px;
+}
+
+.transaction .title h4{
+    font-size: 35px;
+    text-align: left;
+}
+
+.transaction .title span{
+    width: 16.5rem;
+    margin: inherit;
+}
+
+.table-main{
+    /* background: linear-gradient(180deg,rgba(255,255,255,0.03) 10.7%,rgba(255,255,255,0)); */
+    padding: 0px;
+    border-radius: 15px;
+    overflow-x: scroll;
+}
+
+.table-main::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+.table-main::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.01); 
+}
+
+.table-main::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+.table-main::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.transaction table{
+    width: 100%;
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+    border-spacing: 0px 7px;
+}
+
+.transaction table th{
+    color: rgba(255,255,255,0.7);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 12px;
+    font-size: 14px;
+    background: linear-gradient(94.52deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.1) 100%);
+    color: #00F6FF;
+}
+
+.transaction table td{
+    color: #fff;
+    padding: 12px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    background: linear-gradient(180deg,rgba(255,255,255,0.05) 10.7%,rgba(255,255,255,0));
+}
+
+.transaction table td:first-child{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.transaction table td:last-child{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.transaction table thead tr{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.transaction table tbody{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.transaction table tbody tr{
+    transition: 0.2s all linear;
+}
+
+.transaction table tbody tr:hover{
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+}
+
+.transaction table tbody tr:hover > td{
+    color: #00F6FF;
+}
+
+.rangebar{
+    margin: 0px 20px 20px 20px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.rangebar h6{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Pegination */
+.pegination-section{
+    margin-top: 25px;
+}
+
+.pagination{
+    justify-content: end;
+}
+
+.pagination .page-link{
+    background-color: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.01);
+    padding: 10px 18px;
+    color: #fff;
+}
+
+.pagination .page-link:hover{
+    background-image: linear-gradient(94.52deg, #0071e1 0%, #a52bf0 100%);
+    color: #fff;
+    border-color: rgba(255,255,255,0.01);
+}
+
+.pagination .page-item:first-child .page-link{
+    border: 1px solid rgba(255,255,255,0.01);
+}
+
+.pagination .page-item:last-child .page-link{
+    border: 1px solid rgba(255,255,255,0.01);
+}
+
+.active>.page-link, .page-link.active{
+    background-color: rgba(255,255,255,0.1)!important;
+    border-color: rgba(255,255,255,0.1)!important;
+    color: #00F6FF!important;
+}
+
+.balanced{
+    margin: 10px 20px 10px 20px;
+}
+
+.balanced .nav{
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+.balanced .nav-link{
+    border-bottom: 0px!important;
+}
+
+/* faq */
+.faq-content .accordion-item{
+    background-color: transparent;
+    border: 0px;
+    margin-bottom: 25px;
+}
+
+.faq-content .accordion-button{
+    border-radius: 5px;
+    background-color: transparent!important;
+    background: linear-gradient(180deg,rgba(255,255,255,0.03) 10.7%,rgba(255,255,255,0));
+    box-shadow: none;
+    color: #fff;
+}
+
+.faq-content .accordion-button::after{
+    background-image: url(../../assets/down.svg);
+}
+
+.faq-content .accordion-button:not(.collapsed){
+    color: #fff;
+}
+
+.faq-content .accordion-button:not(.collapsed)::after{
+    background-image: url(../../assets/down.svg);
+}
+
+.faq-content .accordion-button:focus{
+    box-shadow: none;
+}
+
+.faq-content .accordion-body{
+    text-align: justify;
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+
+/* Responsive */
+@media(max-width: 991px) and (min-width: 1200px){
+    .hero-section{
+        margin-top: -200px;
+    }
+}
+
+
+@media(max-width: 991px){
+    .hero-section{
+        margin-bottom: 0px;
+        margin-top: -100px;
+    }
+    .header-section .common-btn{
+        display: none;
+    }
+    .header-section{
+        justify-content: center!important;
+    }
+    
+}
+
+@media(max-width: 767px){
+    .hero-section{
+        margin-top: -80px;
+    }
+    .vision-section{
+        margin-bottom: 70px;
+    }
+    .transaction table{
+        width: 900px;
+    }
+}
+
+@media(max-width: 575px){
+    .hero-section{
+        margin-top: -50px;
+    }
+    .hero-content h4{
+        font-size: 50px;
+    }
+    .title h4{
+        font-size: 25px;
+    }
+    .transaction .title h4{
+        font-size: 25px;
+    }
+  
+}
+
+@media(max-width: 480px){
+    .hero-content h4{
+        font-size: 30px;
+    }
+    .hero-section{
+        margin-top: -150px;
+    }
+    .convert-investment h5{
+        font-size: 25px;
+    }
+    .transaction .title h4{
+        font-size: 20px;
+    }
+    .title h4{
+        font-size: 20px;
+    }
+}
